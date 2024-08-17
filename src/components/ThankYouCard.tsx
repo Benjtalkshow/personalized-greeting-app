@@ -50,7 +50,7 @@ const ThankYouCard: React.FC<ThankYouCardProps> = ({ image, userName, setStep })
                 <img
                     src={image}
                     alt="Selected"
-                    className="absolute w-full h-full object-cover rounded-lg shadow-2xl"
+                    className="absolute w-full h-full object-cover rounded-none shadow-2xl"
                 />
                 <div className="absolute top-10 left-0 right-0 text-center text-white text-5xl font-bold" style={{ textShadow: '2px 2px 10px rgba(0, 0, 0, 0.7)' }}>
                     Thank You
